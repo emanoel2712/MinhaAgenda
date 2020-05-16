@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MinhaAgenda</string>
+    <string name="name_button_add">Add Tarefa</string>
+    <string name="title_dashboard">Painel de Controle</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_notifications">Notificações</string>
+    <string name="title_dialog_selecione_data">Selecione a data</string>
+    <string name="title_button">Adicionar</string>
+</resources>

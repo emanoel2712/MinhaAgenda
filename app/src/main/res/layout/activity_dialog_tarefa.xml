@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".view.DialogTarefaActivity">
+
+
+    <EditText
+        android:id="@+id/editNomeTarefa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o nome" />
+
+    <EditText
+        android:id="@+id/editDescTarefa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editNomeTarefa"
+        android:hint="Digite a descrição (Opcional)" />
+
+
+    <Button
+        android:id="@+id/btData"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editDescTarefa"
+        android:text="Selecione a Data"></Button>
+
+    <Button
+        android:id="@+id/btHora"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editDescTarefa"
+        android:layout_alignParentRight="true"
+
+        android:text="Selecione a Hora"></Button>
+
+    <TextView
+        android:id="@+id/tvDataSelecionada"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btData"
+        android:layout_marginTop="20dp"
+        android:text="Data selecionada: " />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvHorarioSelecionado"
+        android:text="Horario selecionado: "
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/btHora"
+        ></TextView>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvDataSelecionada"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btSalvar"
+        android:text="@string/title_button"
+        android:textColor="#000000"
+
+        />
+
+
+</RelativeLayout>

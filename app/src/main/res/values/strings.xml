@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyAgenda</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="name_button_add">Add Task</string>
+    <string name="title_dialog_selecione_data">Select date</string>
+    <string name="title_button">Add</string>
+</resources>
